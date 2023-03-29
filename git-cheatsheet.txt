@@ -1,5 +1,11 @@
+LOCAL
 git status                      // státusz 
 git init                        // verziókövetés elindítása
 git add .                       // minden változtatást hozzáad a következő snapshothoz
 git commit -m "plusz egy sor"   // itt nevezem el a verziót (snapshotot)
-rm -rf .git                     
+
+VERZIÓKÖVETÉS
+git remote                      // milyen repo van a felhőben?
+github-on csinálunk egy üres repo-t kiszedjük az URL-t
+git remote add origin URL       // hozzáadjuk a githubról a repo URL-jét
+git push                        // feltölti 
