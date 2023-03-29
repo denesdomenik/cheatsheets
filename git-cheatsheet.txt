@@ -1,0 +1,4 @@
+git init                        // verziókövetés elindítása
+git add .                       
+git commit -m "plusz egy sor"   
+rm -rf .git                     

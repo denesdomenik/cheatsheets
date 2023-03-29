@@ -1,0 +1,8 @@
+cd change directory     // opens folder (TAB: autocomplete)
+cd ..                   // goues up in the folder structure
+ls                      // list contents of the folder
+up arrow                // brings back previous prompts
+mkdir                   // make directory
+mkdir foldername        // creates "foldername" folder (don't use space for naming)
+touch filename.extension    //creates new file (dont use space)
+ls -la                  // mutatja a rejtett fileokat is
