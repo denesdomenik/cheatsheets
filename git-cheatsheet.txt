@@ -1,4 +1,5 @@
+git status                      // státusz 
 git init                        // verziókövetés elindítása
-git add .                       
-git commit -m "plusz egy sor"   
+git add .                       // minden változtatást hozzáad a következő snapshothoz
+git commit -m "plusz egy sor"   // itt nevezem el a verziót (snapshotot)
 rm -rf .git                     
